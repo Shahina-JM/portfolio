@@ -302,11 +302,9 @@ span {
 }
 
 .wrapper {
-    /* display: grid; */
-    /* grid-template-columns: repeat(3, 1fr */
-    gap: 3rem;
-    /* height: 30rem; */
-}
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;}
 
 .testimonial-item {
     min-height: 450px;
@@ -380,7 +378,7 @@ span {
     font-size: 1.6rem;
     color: var(--text-color);
     background: var(--bg-color);
-    border: 0.25rem solid --main-color;
+    border: 0.25rem solid var(--main-color);
     border-radius: 0.8rem;
     margin: 0.7rem 0;
     resize: none;
@@ -405,13 +403,13 @@ span {
     background-color: var(--snd-bg-color);
 }
 
-.footer.social {
+.footer .social {
     text-align: center;
     padding-bottom: 25px;
     color: var(--main-color);
 }
 
-.footer.social a {
+.footer .social a {
     font-size: 25px;
     color: var(--main-color);
     border: 2px solid var(--main-color);
